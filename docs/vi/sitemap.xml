@@ -108,16 +108,6 @@
   </url><url>
     <loc>https://chefQuang.github.io/vi/1-worklog/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chefQuang.github.io/1-worklog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://chefQuang.github.io/vi/1-worklog/"
-                />
   </url><url>
     <loc>https://chefQuang.github.io/vi/5-workshop/5.3-s3-vpc/5.3.1-create-gwe/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
@@ -299,45 +289,6 @@
                 rel="alternate"
                 hreflang="vi"
                 href="https://chefQuang.github.io/vi/5-workshop/5.4-s3-onprem/5.4.2-create-interface-enpoint/"
-                />
-  </url><url>
-    <loc>https://chefQuang.github.io/vi/1-worklog/1.10-week10/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chefQuang.github.io/1-worklog/1.10-week10/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://chefQuang.github.io/vi/1-worklog/1.10-week10/"
-                />
-  </url><url>
-    <loc>https://chefQuang.github.io/vi/1-worklog/1.11-week11/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chefQuang.github.io/1-worklog/1.11-week11/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://chefQuang.github.io/vi/1-worklog/1.11-week11/"
-                />
-  </url><url>
-    <loc>https://chefQuang.github.io/vi/1-worklog/1.12-week12/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chefQuang.github.io/1-worklog/1.12-week12/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://chefQuang.github.io/vi/1-worklog/1.12-week12/"
                 />
   </url><url>
     <loc>https://chefQuang.github.io/vi/3-blogsposted/</loc>

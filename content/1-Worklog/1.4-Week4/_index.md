@@ -1,57 +1,30 @@
 ---
 title: "Week 4 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-06-22
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 4 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Configure AWS IoT Rules to intercept and route incoming MQTT messages.
+* Resolve IAM permissions and Trust Policy issues for cross-service interaction.
+* Implement a Direct-to-S3 ingestion pipeline for raw telemetry data.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 | - Learn AWS IoT Message Routing: <br>&emsp; + IoT Rule SQL syntax. <br>&emsp; + Available Rule Actions. | 06/22/2026 | 06/22/2026 | <https://docs.aws.amazon.com/iot/latest/developerguide/iot-rules.html> |
+| 3 | - **Data Routing Setup:** <br>&emsp; + Create an IoT Rule with the statement `SELECT * FROM 'telemetry/aqi/dev'`. <br>&emsp; + Attempt initial integration with Kinesis Firehose. | 06/23/2026 | 06/23/2026 | |
+| 4 | - **Security & Troubleshooting:** <br>&emsp; + Resolve `sts:AssumeRole` rejection errors. <br>&emsp; + Modify IAM Trust Policies to allow `iot.amazonaws.com` to assume roles. | 06/24/2026 | 06/24/2026 | <https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_terms-and-concepts.html> |
+| 5 | - **Pipeline Pivot:** <br>&emsp; + Bypass Firehose subscription limitations by designing a Direct-to-S3 approach. <br>&emsp; + Request and attach `s3:PutObject` policies to the IoT role. | 06/25/2026 | 06/25/2026 | <https://docs.aws.amazon.com/iot/latest/developerguide/s3-rule-action.html> |
+| 6 | - **S3 Integration & Partitioning:** <br>&emsp; + Configure the S3 Rule Action. <br>&emsp; + Apply dynamic S3 Object Key: `raw/telemetry/${parse_time("yyyy/MM/dd/HH", timestamp())}/${newuuid()}.json`. | 06/26/2026 | 06/26/2026 | <https://docs.aws.amazon.com/iot/latest/developerguide/iot-sql-functions.html> |
 
 ### Week 4 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Mastered the creation of AWS IoT Rules to filter and process telemetry data using SQL-like syntax.
+* Deepened understanding of AWS Identity and Access Management (IAM), specifically troubleshooting Trust Policies and cross-service roles.
+* Successfully pivoted the ingestion architecture to a Direct-to-S3 model, ensuring the project timeline wasn't blocked by account limitations.
+* Implemented automated data partitioning in Amazon S3 by injecting timestamp and UUID functions directly into the IoT Rule key configuration.

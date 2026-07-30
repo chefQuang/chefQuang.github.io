@@ -1,57 +1,31 @@
 ---
 title: "Week 2 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-06-08
+weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 2 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Deepen understanding of Amazon S3 and AWS IoT Core.
+* Design the system architecture for the Local AQI Forecasting System.
+* Establish the Data Contract and prepare the historical dataset for simulation.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 | - Learn Amazon S3 basics: <br>&emsp; + Buckets & Objects <br>&emsp; + Storage Classes & Lifecycle <br>&emsp; + IAM Policies for S3 <br> - **Practice:** Create S3 bucket, upload/download files via Console & CLI. | 06/08/2026 | 06/08/2026 | <https://docs.aws.amazon.com/s3/> |
+| 3 | - Learn AWS IoT Core concepts: <br>&emsp; + Things & Device Registry <br>&emsp; + X.509 Certificates & IoT Policies <br>&emsp; + MQTT Message Broker <br> - **Practice:** Register a Thing and generate mTLS certificates. | 06/09/2026 | 06/09/2026 | <https://docs.aws.amazon.com/iot/> |
+| 4 | - **System Architecture Design:** <br>&emsp; + Collaborate with the team to draw the end-to-end data flow (Edge -> AWS IoT Core -> Data Lake -> Analytics). <br>&emsp; + Define integration points between Ingestion and Data Engineering modules. | 06/10/2026 | 06/10/2026 | |
+| 5 | - **Data Contract Definition:** <br>&emsp; + Standardize the JSON telemetry schema (`device_id`, `pm2_5`, `timestamp`) with the DE team. <br>&emsp; + Define the MQTT topic structure (`telemetry/aqi/dev`). | 06/11/2026 | 06/11/2026 | |
+| 6 | - **Data Preparation:** <br>&emsp; + Research and extract historical air quality data from the OpenAQ dataset. <br>&emsp; + Clean and format the dataset to match the defined JSON schema for upcoming simulations. | 06/12/2026 | 06/12/2026 | <https://openaq.org/> |
 
 ### Week 2 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Mastered Amazon S3 fundamentals and successfully managed cloud storage resources via both CLI and Web Console.
+* Grasped AWS IoT Core mechanisms, particularly the MQTT pub/sub model and mTLS security for IoT devices.
+* Completed the high-level architecture diagram for the Local AQI Forecasting data pipeline.
+* Finalized the Data Contract and JSON payload schema, ensuring strict alignment between the Ingestion and Data Engineering teams.
+* Successfully acquired, cleaned, and evaluated the historical OpenAQ dataset, laying the groundwork for the Python telemetry simulator.
