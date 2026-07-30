@@ -41,19 +41,6 @@
                 href="https://chefQuang.github.io/vi/3-blogsposted/3.2-blog2/"
                 />
   </url><url>
-    <loc>https://chefQuang.github.io/vi/3-blogsposted/3.3-blog3/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chefQuang.github.io/3-blogsposted/3.3-blog3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://chefQuang.github.io/vi/3-blogsposted/3.3-blog3/"
-                />
-  </url><url>
     <loc>https://chefQuang.github.io/vi/5-workshop/5.4-s3-onprem/5.4.1-prepare/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -65,32 +52,6 @@
                 rel="alternate"
                 hreflang="vi"
                 href="https://chefQuang.github.io/vi/5-workshop/5.4-s3-onprem/5.4.1-prepare/"
-                />
-  </url><url>
-    <loc>https://chefQuang.github.io/vi/4-eventparticipated/4.1-event1/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chefQuang.github.io/4-eventparticipated/4.1-event1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://chefQuang.github.io/vi/4-eventparticipated/4.1-event1/"
-                />
-  </url><url>
-    <loc>https://chefQuang.github.io/vi/4-eventparticipated/4.2-event2/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chefQuang.github.io/4-eventparticipated/4.2-event2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://chefQuang.github.io/vi/4-eventparticipated/4.2-event2/"
                 />
   </url><url>
     <loc>https://chefQuang.github.io/vi/5-workshop/5.1-workshop-overview/</loc>

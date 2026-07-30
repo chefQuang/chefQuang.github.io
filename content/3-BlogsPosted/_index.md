@@ -6,17 +6,10 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+This section lists and introduces the technical blogs I have researched, written, and posted to the [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj) community during my internship.
 
-This section will list and introduce the blogs you have posted to [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). For example:
+### [Blog 1 - INCREASING AWS LAMBDA MEMORY CAN REDUCE COSTS – HERE'S WHY](3.1-Blog1/)
+This blog explains the hidden relationship between AWS Lambda memory configuration, CPU allocation, execution time, and total compute costs. It highlights a counter-intuitive cloud concept: how increasing memory for CPU-bound workloads can actually decrease overall costs by significantly reducing execution time. The post also recommends using tools like AWS Lambda Power Tuning to find the optimal balance between performance and cost.
 
-###  [Blog 1 - SESSION POLICIES IN AMAZON EKS POD IDENTITY](3.1-Blog1/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
-
-###  [Blog 2 - ...](3.2-Blog2/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
-
-###  [Blog 3 - ...](3.3-Blog3/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+### [Blog 2 - WHY REST API ISN'T ALWAYS THE ANSWER: THE POWER OF PUB/SUB AND MQTT](3.2-Blog2/)
+This blog discusses the limitations of synchronous HTTP/REST APIs in modern distributed systems and introduces the Publish/Subscribe (Pub/Sub) model using the lightweight MQTT protocol. It explores how leveraging AWS services—such as AWS IoT Core and Amazon EventBridge—enables a highly scalable, decoupled Event-Driven Architecture, which is especially critical for robust IoT telemetry data pipelines.

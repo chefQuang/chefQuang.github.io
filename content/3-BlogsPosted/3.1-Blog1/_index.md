@@ -1,31 +1,27 @@
 ---
-title: "Blog 1"
+title: "Blog 1: AWS Lambda Memory"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 3.1. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-# SESSION POLICIES IN AMAZON EKS POD IDENTITY
+# INCREASING AWS LAMBDA MEMORY CAN REDUCE COSTS – HERE'S WHY
 
-Amazon EKS Pod Identity has recently added the session policies feature, allowing you to narrow IAM permissions flexibly and precisely for each pod without needing to create many separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+When configuring AWS Lambda, it is a common misconception that choosing the lowest memory tier (128 MB) is the best way to save money. In reality, because AWS allocates CPU power proportionally to the configured memory, increasing memory can significantly reduce execution time, which may ultimately lower your overall compute costs.
 
 Key points to know:
 
-* A session policy is an inline IAM policy specified when creating or updating a Pod Identity association.
-* Effective permissions = intersection between the IAM role permissions and the session policy → the session policy can only narrow permissions, not expand them.
-* Helps avoid over-permissioning when reusing a single IAM role for multiple workloads with different needs.
-* Supports both same-account and cross-account (via IAM role chaining).
-* Significantly reduces the number of IAM roles that need to be managed, helping avoid hitting IAM quota limits in large clusters.
-* Easily configured through the AWS Management Console, AWS CLI, or AWS SDK when creating an association between a Kubernetes ServiceAccount and an IAM role.
+* Memory configuration in Lambda does not just allocate RAM; it proportionally increases CPU power, network capabilities, and I/O throughput.
+* Lambda pricing is calculated in GB-seconds (Allocated Memory × Execution Time). If a function with higher memory runs significantly faster, the total GB-seconds billed can be lower than running a low-memory function for a longer duration.
+* Increasing memory is highly effective for CPU-bound workloads (e.g., data parsing, image resizing, heavy data transformations) and functions using large libraries like pandas or NumPy.
+* It is less effective for I/O-bound tasks that spend most of their time waiting for external API or database responses, as the extra CPU cannot speed up external latency.
+* Do not rely solely on the `Max Memory Used` metric to determine your configuration, as a function might not use all its RAM but could still be starving for CPU.
+* It is highly recommended to use **AWS Lambda Power Tuning** (for active testing) or **AWS Compute Optimizer** (for historical data analysis) to find the perfect balance between cost and performance.
 
-This feature is especially useful when you have many applications running on the same IAM role but need different permission restrictions (for example: one pod only reads a specific S3 bucket, another pod only calls certain APIs).
+This optimization approach demonstrates that instead of asking "What is the lowest memory setting?", cloud engineers should ask "Which memory setting provides the best balance between execution speed and cost?"
 
-...Image...
-
-...Link...
-
-...Guide...
+**Original Post & References:**
+* [My Original Post on FCAJ Group](https://www.facebook.com/groups/awsstudygroupfcj/posts/2228234364608190)
+* [AWS Compute Optimizer](https://aws.amazon.com/compute-optimizer/)
+* [AWS Lambda Power Tuning (GitHub)](https://github.com/alexcasalboni/aws-lambda-power-tuning)
