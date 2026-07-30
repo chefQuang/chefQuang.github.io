@@ -29,8 +29,6 @@ To objectively reflect on my internship period, I would like to evaluate myself 
 | 11  | **Contribution to project/team**    | Work effectiveness, innovative ideas, recognition from the team                                  | ✅    | ☐    | ☐       |
 | 12  | **Overall**                         | General evaluation of the entire internship period                                               | ✅    | ☐    | ☐       |
 
-### Needs Improvement
-
 * **Time Management & Discipline:** Need to strengthen personal discipline, strictly adhere to project timelines, and maintain a better balance between researching new AWS features and delivering tasks on schedule.
 * **Problem-Solving Autonomy:** Strive to enhance logical troubleshooting skills, particularly in independently debugging complex cloud architecture issues (such as AWS IAM cross-service permissions) before seeking assistance from senior engineers.
 * **Professional Communication:** Improve the ability to clearly articulate technical blockers and present system architectures confidently to both technical and non-technical stakeholders during team syncs.

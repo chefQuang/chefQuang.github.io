@@ -1,12 +1,10 @@
 ---
 title: "Worklog"
-date: 2026-07-31
+date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1. </b> "
 ---
-
-### Overview of the Internship Journey
 
 This worklog documents my step-by-step progress and technical growth during the **First Cloud AI Journey (FCAJ)** internship program. 
 
@@ -18,8 +16,6 @@ Throughout these 9 weeks, I transitioned through three major technical phases:
 3. **Machine Learning:** Training and deploying time-series forecasting models to predict future air quality trends.
 
 Below is the detailed weekly breakdown of my tasks and achievements:
-
----
 
 **Week 1:** [Getting familiar with AWS and basic AWS services](1.1-week1/)
 
