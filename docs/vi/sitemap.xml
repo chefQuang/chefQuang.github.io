@@ -43,31 +43,28 @@
   </url><url>
     <loc>https://chefQuang.github.io/vi/5-workshop/5.7-backend-deployment/5.7.1-prepare/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chefQuang.github.io/vi/5-workshop/5.3-devops/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://chefQuang.github.io/5-workshop/5.3-devops/"
+                href="https://chefQuang.github.io/5-workshop/5.7-backend-deployment/5.7.1-prepare/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://chefQuang.github.io/vi/5-workshop/5.3-devops/"
+                href="https://chefQuang.github.io/vi/5-workshop/5.7-backend-deployment/5.7.1-prepare/"
                 />
   </url><url>
-    <loc>https://chefQuang.github.io/vi/5-workshop/5.3-devops/1-foundation-governance/</loc>
+    <loc>https://chefQuang.github.io/vi/5-workshop/5.3-devops/5.3.1-foundation-governance/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://chefQuang.github.io/5-workshop/5.3-devops/1-foundation-governance/"
+                href="https://chefQuang.github.io/5-workshop/5.3-devops/5.3.1-foundation-governance/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://chefQuang.github.io/vi/5-workshop/5.3-devops/1-foundation-governance/"
+                href="https://chefQuang.github.io/vi/5-workshop/5.3-devops/5.3.1-foundation-governance/"
                 />
   </url><url>
     <loc>https://chefQuang.github.io/vi/5-workshop/5.1-workshop-overview/</loc>
@@ -96,17 +93,17 @@
                 href="https://chefQuang.github.io/vi/1-worklog/"
                 />
   </url><url>
-    <loc>https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/5.3.1-s3-data-lake/</loc>
+    <loc>https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/5.5.1-s3-data-lake/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://chefQuang.github.io/5-workshop/5.5-data-preprocessing/5.3.1-s3-data-lake/"
+                href="https://chefQuang.github.io/5-workshop/5.5-data-preprocessing/5.5.1-s3-data-lake/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/5.3.1-s3-data-lake/"
+                href="https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/5.5.1-s3-data-lake/"
                 />
   </url><url>
     <loc>https://chefQuang.github.io/vi/1-worklog/1.1-week1/</loc>
@@ -241,18 +238,28 @@
   </url><url>
     <loc>https://chefQuang.github.io/vi/5-workshop/5.7-backend-deployment/5.7.2-install/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/5.3.2-firehose/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://chefQuang.github.io/5-workshop/5.5-data-preprocessing/5.3.2-firehose/"
+                href="https://chefQuang.github.io/5-workshop/5.7-backend-deployment/5.7.2-install/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/5.3.2-firehose/"
+                href="https://chefQuang.github.io/vi/5-workshop/5.7-backend-deployment/5.7.2-install/"
+                />
+  </url><url>
+    <loc>https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/5.5.2-firehose/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chefQuang.github.io/5-workshop/5.5-data-preprocessing/5.5.2-firehose/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/5.5.2-firehose/"
                 />
   </url><url>
     <loc>https://chefQuang.github.io/vi/5-workshop/5.2-prerequiste/</loc>
@@ -268,17 +275,17 @@
                 href="https://chefQuang.github.io/vi/5-workshop/5.2-prerequiste/"
                 />
   </url><url>
-    <loc>https://chefQuang.github.io/vi/5-workshop/5.3-devops/2-project-coordination/</loc>
+    <loc>https://chefQuang.github.io/vi/5-workshop/5.3-devops/5.3.2-project-coordination/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://chefQuang.github.io/5-workshop/5.3-devops/2-project-coordination/"
+                href="https://chefQuang.github.io/5-workshop/5.3-devops/5.3.2-project-coordination/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://chefQuang.github.io/vi/5-workshop/5.3-devops/2-project-coordination/"
+                href="https://chefQuang.github.io/vi/5-workshop/5.3-devops/5.3.2-project-coordination/"
                 />
   </url><url>
     <loc>https://chefQuang.github.io/vi/3-blogsposted/</loc>
@@ -294,46 +301,56 @@
                 href="https://chefQuang.github.io/vi/3-blogsposted/"
                 />
   </url><url>
+    <loc>https://chefQuang.github.io/vi/5-workshop/5.3-devops/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chefQuang.github.io/5-workshop/5.3-devops/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://chefQuang.github.io/vi/5-workshop/5.3-devops/"
+                />
+  </url><url>
     <loc>https://chefQuang.github.io/vi/5-workshop/5.7-backend-deployment/5.7.3-systemd/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/5.3.3-data-validation/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://chefQuang.github.io/5-workshop/5.5-data-preprocessing/5.3.3-data-validation/"
+                href="https://chefQuang.github.io/5-workshop/5.7-backend-deployment/5.7.3-systemd/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/5.3.3-data-validation/"
+                href="https://chefQuang.github.io/vi/5-workshop/5.7-backend-deployment/5.7.3-systemd/"
                 />
   </url><url>
-    <loc>https://chefQuang.github.io/vi/5-workshop/5.3-devops/3-monitoring-quality/</loc>
+    <loc>https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/5.5.3-data-validation/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://chefQuang.github.io/5-workshop/5.3-devops/3-monitoring-quality/"
+                href="https://chefQuang.github.io/5-workshop/5.5-data-preprocessing/5.5.3-data-validation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://chefQuang.github.io/vi/5-workshop/5.3-devops/3-monitoring-quality/"
+                href="https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/5.5.3-data-validation/"
                 />
   </url><url>
-    <loc>https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/</loc>
+    <loc>https://chefQuang.github.io/vi/5-workshop/5.3-devops/5.3.3-monitoring-quality/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://chefQuang.github.io/5-workshop/5.5-data-preprocessing/"
+                href="https://chefQuang.github.io/5-workshop/5.3-devops/5.3.3-monitoring-quality/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/"
+                href="https://chefQuang.github.io/vi/5-workshop/5.3-devops/5.3.3-monitoring-quality/"
                 />
   </url><url>
     <loc>https://chefQuang.github.io/vi/4-eventparticipated/</loc>
@@ -349,17 +366,17 @@
                 href="https://chefQuang.github.io/vi/4-eventparticipated/"
                 />
   </url><url>
-    <loc>https://chefQuang.github.io/vi/5-workshop/5.3-devops/4-demo-preparation/</loc>
+    <loc>https://chefQuang.github.io/vi/5-workshop/5.3-devops/5.3.4-demo-preparation/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://chefQuang.github.io/5-workshop/5.3-devops/4-demo-preparation/"
+                href="https://chefQuang.github.io/5-workshop/5.3-devops/5.3.4-demo-preparation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://chefQuang.github.io/vi/5-workshop/5.3-devops/4-demo-preparation/"
+                href="https://chefQuang.github.io/vi/5-workshop/5.3-devops/5.3.4-demo-preparation/"
                 />
   </url><url>
     <loc>https://chefQuang.github.io/vi/5-workshop/5.4-ingestion/</loc>
@@ -377,18 +394,28 @@
   </url><url>
     <loc>https://chefQuang.github.io/vi/5-workshop/5.7-backend-deployment/5.7.4-test/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/5.3.4-data-processing/</loc>
-    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://chefQuang.github.io/5-workshop/5.5-data-preprocessing/5.3.4-data-processing/"
+                href="https://chefQuang.github.io/5-workshop/5.7-backend-deployment/5.7.4-test/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/5.3.4-data-processing/"
+                href="https://chefQuang.github.io/vi/5-workshop/5.7-backend-deployment/5.7.4-test/"
+                />
+  </url><url>
+    <loc>https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/5.5.4-data-processing/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chefQuang.github.io/5-workshop/5.5-data-preprocessing/5.5.4-data-processing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/5.5.4-data-processing/"
                 />
   </url><url>
     <loc>https://chefQuang.github.io/vi/5-workshop/5.8-policy/</loc>
@@ -402,6 +429,19 @@
                 rel="alternate"
                 hreflang="vi"
                 href="https://chefQuang.github.io/vi/5-workshop/5.8-policy/"
+                />
+  </url><url>
+    <loc>https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chefQuang.github.io/5-workshop/5.5-data-preprocessing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/"
                 />
   </url><url>
     <loc>https://chefQuang.github.io/vi/5-workshop/</loc>
@@ -445,6 +485,16 @@
   </url><url>
     <loc>https://chefQuang.github.io/vi/5-workshop/5.7-backend-deployment/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chefQuang.github.io/5-workshop/5.7-backend-deployment/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://chefQuang.github.io/vi/5-workshop/5.7-backend-deployment/"
+                />
   </url><url>
     <loc>https://chefQuang.github.io/vi/5-workshop/5.6-machine-learning/</loc>
     <xhtml:link

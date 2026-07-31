@@ -1,9 +1,9 @@
 ---
 title: "Xây dựng Data Pipeline"
 date : 2024-01-01
-weight : 3
+weight : 5
 chapter : false
-pre : " <b> 5.3. </b> "
+pre : " <b> 5.5. </b> "
 ---
 
 Trong module này, chúng ta sẽ thực hành xây dựng một luồng dữ liệu (Data Pipeline) hoàn chỉnh trên AWS. 
