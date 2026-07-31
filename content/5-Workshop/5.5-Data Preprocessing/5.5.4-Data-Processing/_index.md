@@ -104,7 +104,7 @@ The script will:
 
 The terminal should display a data quality summary similar to the following:
 
-![Run data_processing.py on WSL](images/5.3-data/5.3.4.1.png)
+![Run data_processing.py on WSL](/images/5.3-data/5.3.4.1.png)
 
 ---
 

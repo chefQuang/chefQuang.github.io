@@ -52,7 +52,7 @@ MQTT Simulator
     -> Amazon SNS Email Alert
 ```
 
-![Overall project architecture](/images/5-Workshop/5.1-Workshop-overview/5.3-devops-local-aqi-final-architecture.png)
+![Overall project architecture](/images/aqi-architect.jpg)
 
 
 #### How to read this workshop
