@@ -15,21 +15,21 @@
     <title>Tạo S3 Data Lake :: Báo cáo thực tập</title>
 
     
-    <link href="/css/nucleus.css?1785513607" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1785513607" rel="stylesheet">
-    <link href="/css/hybrid.css?1785513607" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1785513607" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1785513607" rel="stylesheet">
-    <link href="/css/auto-complete.css?1785513607" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1785513607" rel="stylesheet">
-    <link href="/css/theme.css?1785513607" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1785513607" rel="stylesheet">
+    <link href="/css/nucleus.css?1785514276" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1785514276" rel="stylesheet">
+    <link href="/css/hybrid.css?1785514276" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1785514276" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1785514276" rel="stylesheet">
+    <link href="/css/auto-complete.css?1785514276" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1785514276" rel="stylesheet">
+    <link href="/css/theme.css?1785514276" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1785514276" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1785513607" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1785514276" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1785513607"></script>
+    <script src="/js/jquery-3.3.1.min.js?1785514276"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -59,12 +59,12 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1785513607"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1785513607"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1785514276"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1785514276"></script>
 <script type="text/javascript">
         var baseurl = "https:\/\/chefQuang.github.io\/";
 </script>
-<script type="text/javascript" src="/js/search.js?1785513607"></script>
+<script type="text/javascript" src="/js/search.js?1785514276"></script>
  
   </div>
 
@@ -970,14 +970,14 @@
 <ul>
 <li><strong>Bucket name:</strong> Đặt tên cho bucket. Ví dụ: <code>local-aqi-dev-s3-raw</code> (Lưu ý: Tên bucket trên S3 phải là duy nhất trên toàn cầu, vì vậy hãy thêm hậu tố tên của bạn hoặc một mã ngẫu nhiên).</li>
 </ul>
-<p><img alt="Cấu hình tên Bucket" src="/images/5-Workshop/5.3-data/5.3.1.1.png"></p>
+<p><img alt="Cấu hình tên Bucket" src="images/5.3-data/5.3.1.1.png"></p>
 </li>
 <li>
 <p>Tại phần <strong>Block Public Access settings for this bucket</strong>:</p>
 <ul>
 <li>Đảm bảo mục <strong>Block all public access</strong> đã được tích chọn. Đây là bước cực kỳ quan trọng để bảo vệ dữ liệu nội bộ của dự án khỏi các truy cập trái phép từ internet.</li>
 </ul>
-<p><img alt="Chặn quyền truy cập công khai" src="/images/5-Workshop/5.3-data/5.3.1.2.png"></p>
+<p><img alt="Chặn quyền truy cập công khai" src="../../../../images/5.3-data/5.3.1.2.png"></p>
 </li>
 <li>
 <p>Cuộn xuống phần <strong>Tags - optional</strong> (Gắn thẻ tài nguyên). Việc gắn thẻ giúp team dễ dàng quản lý chi phí và phân loại tài nguyên dự án sau này. Nhấn <strong>Add new tag</strong> và thêm các thẻ giống như sau:</p>
@@ -987,11 +987,11 @@
 <li><strong>Key:</strong> <code>Owner</code> | <strong>Value:</strong> <code>quynh-tam</code></li>
 <li><strong>Key:</strong> <code>Module</code> | <strong>Value:</strong> <code>data</code></li>
 </ul>
-<p><img alt="Gắn thẻ tài nguyên AWS" src="/images/5-Workshop/5.3-data/5.3.1.3.png"></p>
+<p><img alt="Gắn thẻ tài nguyên AWS" src="../../../../images/5.3-data/5.3.1.3.png"></p>
 </li>
 <li>
 <p>Cuộn xuống dưới cùng và nhấn <strong>Create bucket</strong> sẽ tạo ra bucket.
-<img alt="buket đã tạo" src="/images/5-Workshop/5.3-data/5.3.1.4.png"></p>
+<img alt="buket đã tạo" src="../../../../images/5.3-data/5.3.1.4.png"></p>
 </li>
 </ol>
 <h4 id="quy-hoạch-thư-mục-prefixes">Quy hoạch thư mục (Prefixes)</h4>
@@ -1004,7 +1004,7 @@
 <li><code>raw/</code>: Nơi Kinesis Firehose sẽ tự động đẩy dữ liệu thô vào.</li>
 </ul>
 <p><strong>Kết quả sau cùng:</strong> Giao diện bên trong bucket S3 của bạn sẽ có cấu trúc các thư mục gốc giống như hình bên dưới:</p>
-<p><img alt="Kết quả cấu trúc thư mục S3" src="/images/5-Workshop/5.3-data/5.3.1.5.png"></p>
+<p><img alt="Kết quả cấu trúc thư mục S3" src="../../../../images/5.3-data/5.3.1.5.png"></p>
 <p><em>Lưu ý: Dữ liệu bên trong thư mục <code>raw/</code> sẽ tự động được phân mảnh (partition) theo thời gian ở bước thiết lập Firehose tiếp theo, do đó bạn không cần tạo thêm các thư mục con theo ngày tháng thủ công.</em></p>
 
 
@@ -1695,19 +1695,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1785513607"></script>
-    <script src="/js/perfect-scrollbar.min.js?1785513607"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1785513607"></script>
-    <script src="/js/jquery.sticky.js?1785513607"></script>
-    <script src="/js/featherlight.min.js?1785513607"></script>
-    <script src="/js/highlight.pack.js?1785513607"></script>
+    <script src="/js/clipboard.min.js?1785514276"></script>
+    <script src="/js/perfect-scrollbar.min.js?1785514276"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1785514276"></script>
+    <script src="/js/jquery.sticky.js?1785514276"></script>
+    <script src="/js/featherlight.min.js?1785514276"></script>
+    <script src="/js/highlight.pack.js?1785514276"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1785513607"></script>
-    <script src="/js/learn.js?1785513607"></script>
-    <script src="/js/hugo-learn.js?1785513607"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1785514276"></script>
+    <script src="/js/learn.js?1785514276"></script>
+    <script src="/js/hugo-learn.js?1785514276"></script>
 
-    <link href="/mermaid/mermaid.css?1785513607" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1785513607"></script>
+    <link href="/mermaid/mermaid.css?1785514276" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1785514276"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

@@ -53,7 +53,7 @@ raw/year=!{timestamp:yyyy}/month=!{timestamp:MM}/day=!{timestamp:dd}/hour=!{time
 
    AWS will automatically create an IAM service role (for example, `KinesisFirehoseServiceRole-...`) with the minimum permissions required to write data to Amazon S3.
 
-   ![Configure IAM Role](../../../../images/5.3-data/5.3.2.5.png)
+   ![Configure IAM Role](images/5.3-data/5.3.2.5.png)
 
 2. Scroll down to **Tags (optional)** and add the following resource tags:
 
@@ -62,10 +62,10 @@ raw/year=!{timestamp:yyyy}/month=!{timestamp:MM}/day=!{timestamp:dd}/hour=!{time
    * **Key:** `Owner` | **Value:** `quynh-tam`
    * **Key:** `Module` | **Value:** `data`
 
-   ![Firehose resource tags](../../../../images/5.3-data/5.3.2.6.png)
+   ![Firehose resource tags](images/5.3-data/5.3.2.6.png)
 
 3. Scroll to the bottom of the page and choose **Create Firehose stream**.
 
 The provisioning process may take a few minutes. Once the delivery stream status changes to **Active** (green) in the Firehose console, your data pipeline is ready to receive telemetry messages from AWS IoT Core.
 
-![Firehose Active status](../../../../images/5.3-data/5.3.2.7.png)
+![Firehose Active status](images/5.3-data/5.3.2.7.png)
