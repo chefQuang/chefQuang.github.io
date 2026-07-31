@@ -1,10 +1,10 @@
 ---
 
-title: "Dọn dẹp tài nguyên"
-date: 2026-07-31
-weight: 6
+title: "Workshop"
+date: 2024-01-01
+weight: 5
 chapter: false
-pre: " <b> 6. </b> "
+pre: " <b> 5. </b> "
 --------------------
 
 ## Tổng quan

@@ -3,7 +3,7 @@ title: "Monitoring & Quality Assurance"
 date: 2024-01-01
 weight: 3
 chapter: false
-pre: "<b> 5.3.3. </b>"
+pre: "<b>5.3.3.</b>"
 ---
 
 # Monitoring & Quality Assurance

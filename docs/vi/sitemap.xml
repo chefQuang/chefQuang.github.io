@@ -431,6 +431,19 @@
                 href="https://chefQuang.github.io/vi/5-workshop/5.8-policy/"
                 />
   </url><url>
+    <loc>https://chefQuang.github.io/vi/5-workshop/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chefQuang.github.io/5-workshop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://chefQuang.github.io/vi/5-workshop/"
+                />
+  </url><url>
     <loc>https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -442,19 +455,6 @@
                 rel="alternate"
                 hreflang="vi"
                 href="https://chefQuang.github.io/vi/5-workshop/5.5-data-preprocessing/"
-                />
-  </url><url>
-    <loc>https://chefQuang.github.io/vi/5-workshop/</loc>
-    <lastmod>2026-07-31T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://chefQuang.github.io/5-workshop/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://chefQuang.github.io/vi/5-workshop/"
                 />
   </url><url>
     <loc>https://chefQuang.github.io/vi/5-workshop/5.9-cleanup/</loc>
